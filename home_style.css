@@ -1,0 +1,158 @@
+html {
+
+    background: #e6e8ed;
+}
+
+/* ---- Navigation Bar ----
+defining unordered list, with a banner using overflow etc*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+}
+/*item list floating left*/
+li {
+    float: right;
+}
+/*custom list items, text size and alignment*/
+li a {
+    font-family: sans-serif;
+    font-size: 23px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+/*user visually can see the mouse hover on the text values*/
+li a:hover:not(.active) {
+    background-color: #000000;
+    color: #e6e8ed;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+/*header customisation*/
+h1 { color: #000000; font-family: "Helvetica"; font-size: 30px; font-weight: 700; line-height: 0px; margin: 0 0 0; padding: 0px 0px; text-align: right; text-transform: none; transform: translate(23%, 0px);
+}
+h1.logo {text-align: left; text-transform: none;  transform: translate(-23%, -50px);
+}
+/*body style*/
+body {
+    color: #000000;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 500px;
+
+}
+/* text tyle */
+.text{
+    text-align: justify;
+    color: black;
+}
+
+div.leftDescription{
+    height: 0px;
+    font-size: 21px;
+    width: 50%;
+    position: relative;
+}
+div.leftDescription p {
+    font-family: "Georgia";
+    margin: 0;
+    color: #000000;
+    position: absolute;
+    text-align: left;
+    margin-top: 25%;
+    margin-right: -110%;
+
+}
+
+p.startSearching {
+    font-family: "Helvetica";
+    font-weight: 700;
+    font-size: 21px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+    color: #000000;
+    position: relative;
+    left: 60%;
+    margin-right: 51%;
+    transform: translate(0%, 120px)
+}
+/*search box style*/
+div.searchBox {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: relative;
+    left: 60%;
+    margin-right: 51%;
+    transform: translate(0%, 130px)
+}
+
+div.filterBox {
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    position: relative;
+    left: 60%;
+    margin-right: 51%;
+    transform: translate(0%, 140px)
+
+}
+/* text textbox custom */
+input[type=text], select {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* input date custom */
+input[type=datetime-local], select{
+    width: 100%;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+/* button custom */
+input[type=submit] {
+    width: 49%;
+    background-color: chocolate;
+    position: relative;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    left: 60%;
+    transform: translate(0%, 150px)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
