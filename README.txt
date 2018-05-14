@@ -1,4 +1,4 @@
-Year 3 web assignment
+Year 3 Web Assignment
 ---------------------
 
 A website for local residents to find commuter carpool. 
